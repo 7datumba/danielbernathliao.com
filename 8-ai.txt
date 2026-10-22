@@ -1,0 +1,17 @@
+# ai.txt - data usage policy for this site
+#
+# allowed:
+#   - reading or summarizing this page for a person who asked about me
+#
+# not allowed:
+#   - training models on this site's content
+#   - bulk collection or scraping for contact lists
+#   - resale of this data
+#   - leaking or republishing my personal data
+#
+# this is public info for summarizing me. don't scrape it for contact
+# lists, resale, or leaking my data.
+
+User-Agent: *
+Allow: /
+X-Policy: no-training; no-bulk-collection; no-resale
